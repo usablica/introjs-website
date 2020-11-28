@@ -1,26 +1,38 @@
 ---
-title: Examples
+title: Hints options
 ---
 
-## Intros
+*   `hintPosition`: Hint position. Default: `top-middle`
+*   `hintButtonLabel`: Hint button label. Default: ‘Got it’
+*   `hintAnimation`: To add animation to hints or not. Default: `true`
+*   `hints`: For definining hints using JSON configuration. Array of hint objects.
 
-*   [Basic usage](http://introjs.com/example/hello-world/index.html "Basic usage")
-*   [Basic usage with buttons](http://introjs.com/example/hello-world/withoutBullets.html "Basic usage with buttons")
-*   [Basic usage with bullets](http://introjs.com/example/hello-world/withoutButtons.html "Basic usage with bullets")
-*   [Basic usage with progress-bar](http://introjs.com/example/hello-world/withProgress.html "Basic usage with progress-bar")
-*   [Confirm before exit](http://introjs.com/example/hello-world/exit-confirm.html "Shows a confirm before exit")
-*   [Programmatic defining using JSON](http://introjs.com/example/programmatic/index.html "Programmatic defining using JSON")
-*   [Multi-Page introduction](http://introjs.com/example/multi-page/index.html "Multi-Page introduction")
-*   [Disabling interaction with elements](http://introjs.com/example/disable-interaction/index.html "Disabling interaction with elements")
-*   [Auto-positioning](http://introjs.com/example/auto-position/index.html "Auto-positioning")
-*   [RTL version](http://introjs.com/example/RTL/index.html "RTL version")
-*   [HTML in tooltip](http://introjs.com/example/html-tooltip/index.html "HTML in tooltip")
-*   [Custom CSS Class](http://introjs.com/example/custom-class/index.html "Custom CSS Class")
-*   [Introduction without focusing on elements](http://introjs.com/example/withoutElement/index.html "Introduction without focusing on elements")
-*   [Using with Bootstrap v3.0](http://introjs.com/example/bootstrap/v3/index.html "Using with Bootstrap v3.0")
-*   [Using with SVG Element](http://introjs.com/example/svg/d3.htm "Using Introjs with SVG Element")
+## Hint data structure
 
-## Hints
+```json
+{
+    hint: 'text for the hint',
+    element: element, // string query selector or DOMElement
+    hintPosition: (Optional) Hint position. Default: `top-middle`
+    hintAnimation: (Optional) To add animation to hints or not. Default: `true`
+}
+```
 
-*   [Basic hints usage](http://introjs.com/example/hint/index.html "Basic hints usage")
-*   [Programmatic defining hints using JSON](http://introjs.com/example/programmatic/hint.html "Programmatic defining hints using JSON")
+## Adding options
+
+An example of adding an option:
+
+```javascript
+introJs().setOption("hintButtonLabel", "OK");
+```
+
+An example of adding hints programmatically through options:
+
+```javascript
+introJs().setOptions({
+    hints: [
+        { hint: 'First hint', element: '#new-feature' },
+        { hint: 'Second hint', element: '#new-button', hintAnimation: false }
+    ]
+});
+```
