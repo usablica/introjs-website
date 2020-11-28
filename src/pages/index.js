@@ -497,7 +497,7 @@ function Pricing() {
                             </svg>
                           </div>
                           <p className="ml-3 text-base font-medium text-gray-500">
-                            Pariatur quod similique
+                            <b>One</b> project
                           </p>
                         </li>
 
@@ -508,7 +508,7 @@ function Pricing() {
                             </svg>
                           </div>
                           <p className="ml-3 text-base font-medium text-gray-500">
-                            Sapiente libero doloribus
+                            <b>No</b> commercial support
                           </p>
                         </li>
 
@@ -519,7 +519,18 @@ function Pricing() {
                             </svg>
                           </div>
                           <p className="ml-3 text-base font-medium text-gray-500">
-                            Vel ipsa esse repudiandae
+                            Regular product updates
+                          </p>
+                        </li>
+
+                        <li className="flex items-start">
+                          <div className="flex-shrink-0">
+                            <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                          <p className="ml-3 text-base font-medium text-gray-500">
+                            Lifetime license
                           </p>
                         </li>
                       </ul>
@@ -570,7 +581,7 @@ function Pricing() {
                           </svg>
                         </div>
                         <p className="ml-3 text-base font-medium text-gray-500">
-                          Quia rem est sed impedit magnam
+                          <b>5</b> projects
                         </p>
                       </li>
 
@@ -581,7 +592,7 @@ function Pricing() {
                           </svg>
                         </div>
                         <p className="ml-3 text-base font-medium text-gray-500">
-                          Dolorem vero ratione voluptates
+                          <b>1 month</b> commercial support
                         </p>
                       </li>
 
@@ -592,7 +603,7 @@ function Pricing() {
                           </svg>
                         </div>
                         <p className="ml-3 text-base font-medium text-gray-500">
-                          Qui sed ab doloribus voluptatem dolore
+                          <b>1</b> custom theme
                         </p>
                       </li>
 
@@ -603,7 +614,7 @@ function Pricing() {
                           </svg>
                         </div>
                         <p className="ml-3 text-base font-medium text-gray-500">
-                          Laborum commodi molestiae id et fugiat
+                          Regular product updates
                         </p>
                       </li>
 
@@ -614,7 +625,7 @@ function Pricing() {
                           </svg>
                         </div>
                         <p className="ml-3 text-base font-medium text-gray-500">
-                          Nam ut ipsa nesciunt culpa modi dolor
+                          Lifetime license
                         </p>
                       </li>
                     </ul>
@@ -657,7 +668,7 @@ function Pricing() {
                             </svg>
                           </div>
                           <p className="ml-3 text-base font-medium text-gray-500">
-                            Pariatur quod similique
+                            <b>Unlimited</b> projects
                           </p>
                         </li>
 
@@ -668,7 +679,7 @@ function Pricing() {
                             </svg>
                           </div>
                           <p className="ml-3 text-base font-medium text-gray-500">
-                            Sapiente libero doloribus
+                            <b>3 months</b> support
                           </p>
                         </li>
 
@@ -679,7 +690,29 @@ function Pricing() {
                             </svg>
                           </div>
                           <p className="ml-3 text-base font-medium text-gray-500">
-                            Vel ipsa esse repudiandae
+                            <b>3</b> custom themes
+                          </p>
+                        </li>
+
+                        <li className="flex items-start">
+                          <div className="flex-shrink-0">
+                            <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                          <p className="ml-3 text-base font-medium text-gray-500">
+                            Regular product updates
+                          </p>
+                        </li>
+
+                        <li className="flex items-start">
+                          <div className="flex-shrink-0">
+                            <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                          <p className="ml-3 text-base font-medium text-gray-500">
+                            Lifetime license
                           </p>
                         </li>
                       </ul>
