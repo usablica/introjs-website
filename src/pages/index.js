@@ -133,13 +133,13 @@ function Header() {
               </div>
             </div>
             <div className="hidden md:flex md:space-x-10">
-              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Commercial</a>
+              <a href="#commercial" className="font-medium text-gray-500 hover:text-gray-900">Commercial</a>
 
-              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Documentation</a>
+              <a href="/docs" className="font-medium text-gray-500 hover:text-gray-900">Documentation</a>
 
-              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Download</a>
+              <a href="https://github.com/usablica/intro.js/releases" className="font-medium text-gray-500 hover:text-gray-900" target="_blank">Download</a>
 
-              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">GitHub</a>
+              <a href="https://github.com/usablica/intro.js" className="font-medium text-gray-500 hover:text-gray-900" target="_blank">GitHub</a>
             </div>
           </nav>
         </div>
@@ -165,13 +165,13 @@ function Header() {
             </div>
             <div role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
               <div className="px-2 pt-2 pb-3" role="none">
-                <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" role="menuitem">Commercial</a>
+                <a href="#commercial" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" role="menuitem">Commercial</a>
 
-                <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" role="menuitem">Documentation</a>
+                <a href="/docs" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" role="menuitem">Documentation</a>
 
-                <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" role="menuitem">Download</a>
+                <a href="https://github.com/usablica/intro.js/releases" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" role="menuitem" target="_blank">Download</a>
 
-                <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" role="menuitem">GitHub</a>
+                <a href="https://github.com/usablica/intro.js" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" role="menuitem" target="_blank">GitHub</a>
               </div>
             </div>
           </div>
@@ -193,7 +193,7 @@ function Header() {
                 </a>
               </div>
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                <a href="/docs/getting-started/install" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
                   Get Started
                 </a>
               </div>
@@ -297,14 +297,14 @@ function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
           <div className="flex md:order-2">
-            <a href="https://twitter.com/grid_js" className="ml-6 text-gray-400 hover:text-gray-300">
+            <a href="https://twitter.com/usablica" className="ml-6 text-gray-400 hover:text-gray-300">
               <span className="sr-only">Twitter</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path
                   d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/>
               </svg>
             </a>
-            <a href="https://github.com/grid-js/gridjs" className="ml-6 text-gray-400 hover:text-gray-300">
+            <a href="https://github.com/usablica/intro.js" className="ml-6 text-gray-400 hover:text-gray-300">
               <span className="sr-only">GitHub</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path fillRule="evenodd"
@@ -427,8 +427,8 @@ function Home() {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@usablica" />
           <meta name="twitter:creator" content="@afshinmeh" />
-
         </Head>
+
         <AnnouncementBar />
 
         <Header />
@@ -437,10 +437,294 @@ function Home() {
 
         <Features />
 
+        <Pricing />
+
         <Footer />
       </UserPreferencesProvider>
     </ThemeProvider>
   );
+}
+
+function Pricing() {
+  return (
+    <div className="bg-gray-900">
+      <div className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
+        <div className="text-center">
+          <h2 className="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider" id="commercial">
+            Commercial license
+          </h2>
+          <p className="mt- text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+            Lifetime license. Once-off payment.
+          </p>
+          <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
+            Intro.js is AGPL-licensed and open-source. However, if you want to use Intro.js in your commercial app, website or plugin, you would need to obtain a commercial license.
+          </p>
+        </div>
+      </div>
+
+      <div className="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
+        <div className="relative z-0">
+          <div className="absolute inset-0 h-5/6 bg-gray-900 lg:h-1/3" />
+
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="relative lg:grid lg:grid-cols-7">
+              <div className="mx-auto max-w-md lg:mx-0 lg:max-w-none lg:col-start-1 lg:col-end-3 lg:row-start-2 lg:row-end-3">
+                <div className="h-full flex flex-col rounded-lg shadow-lg overflow-hidden lg:rounded-none lg:rounded-l-lg">
+                  <div className="flex-1 flex flex-col">
+                    <div className="bg-white px-6 py-10">
+                      <div>
+                        <h3 className="text-center text-2xl font-medium text-gray-900" id="tier-hobby">
+                          Starter
+                        </h3>
+                        <div className="mt-4 flex items-center justify-center">
+                      <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
+                        <span className="mt-2 mr-2 text-4xl font-medium">
+                          $
+                        </span>
+                        <span className="font-extrabold">
+                          9.99
+                        </span>
+                      </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
+                      <ul className="space-y-4">
+                        <li className="flex items-start">
+                          <div className="flex-shrink-0">
+                            <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                          <p className="ml-3 text-base font-medium text-gray-500">
+                            Pariatur quod similique
+                          </p>
+                        </li>
+
+                        <li className="flex items-start">
+                          <div className="flex-shrink-0">
+                            <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                          <p className="ml-3 text-base font-medium text-gray-500">
+                            Sapiente libero doloribus
+                          </p>
+                        </li>
+
+                        <li className="flex items-start">
+                          <div className="flex-shrink-0">
+                            <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                          <p className="ml-3 text-base font-medium text-gray-500">
+                            Vel ipsa esse repudiandae
+                          </p>
+                        </li>
+                      </ul>
+                      <div className="mt-8">
+                        <div className="rounded-lg shadow-md">
+                          <a href="#" className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-blue-600 hover:bg-gray-50" aria-describedby="tier-hobby">
+                            Buy now
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-10 max-w-lg mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4">
+                <div className="relative z-10 rounded-lg shadow-xl">
+                  <div className="pointer-events-none absolute inset-0 rounded-lg border-2 border-blue-600" aria-hidden="true" />
+                  <div className="absolute inset-x-0 top-0 transform translate-y-px">
+                    <div className="flex justify-center transform -translate-y-1/2">
+                  <span className="inline-flex rounded-full bg-blue-600 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
+                    Most popular
+                  </span>
+                    </div>
+                  </div>
+                  <div className="bg-white rounded-t-lg px-6 pt-12 pb-10">
+                    <div>
+                      <h3 className="text-center text-3xl font-semibold text-gray-900 sm:-mx-6" id="tier-growth">
+                        Business
+                      </h3>
+                      <div className="mt-4 flex items-center justify-center">
+                    <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl">
+                      <span className="mt-2 mr-2 text-4xl font-medium">
+                        $
+                      </span>
+                      <span className="font-extrabold">
+                        29.99
+                      </span>
+                    </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
+                    <ul className="space-y-4">
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base font-medium text-gray-500">
+                          Quia rem est sed impedit magnam
+                        </p>
+                      </li>
+
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base font-medium text-gray-500">
+                          Dolorem vero ratione voluptates
+                        </p>
+                      </li>
+
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base font-medium text-gray-500">
+                          Qui sed ab doloribus voluptatem dolore
+                        </p>
+                      </li>
+
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base font-medium text-gray-500">
+                          Laborum commodi molestiae id et fugiat
+                        </p>
+                      </li>
+
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base font-medium text-gray-500">
+                          Nam ut ipsa nesciunt culpa modi dolor
+                        </p>
+                      </li>
+                    </ul>
+                    <div className="mt-10">
+                      <div className="rounded-lg shadow-md">
+                        <a href="#" className="block w-full text-center rounded-lg border border-transparent bg-blue-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-blue-700" aria-describedby="tier-growth">
+                          Buy now
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-10 mx-auto max-w-md lg:m-0 lg:max-w-none lg:col-start-6 lg:col-end-8 lg:row-start-2 lg:row-end-3">
+                <div className="h-full flex flex-col rounded-lg shadow-lg overflow-hidden lg:rounded-none lg:rounded-r-lg">
+                  <div className="flex-1 flex flex-col">
+                    <div className="bg-white px-6 py-10">
+                      <div>
+                        <h3 className="text-center text-2xl font-medium text-gray-900" id="tier-scale">
+                          Premium
+                        </h3>
+                        <div className="mt-4 flex items-center justify-center">
+                      <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
+                        <span className="mt-2 mr-2 text-4xl font-medium">
+                          $
+                        </span>
+                        <span className="font-extrabold">
+                          99.99
+                        </span>
+                      </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
+                      <ul className="space-y-4">
+                        <li className="flex items-start">
+                          <div className="flex-shrink-0">
+                            <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                          <p className="ml-3 text-base font-medium text-gray-500">
+                            Pariatur quod similique
+                          </p>
+                        </li>
+
+                        <li className="flex items-start">
+                          <div className="flex-shrink-0">
+                            <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                          <p className="ml-3 text-base font-medium text-gray-500">
+                            Sapiente libero doloribus
+                          </p>
+                        </li>
+
+                        <li className="flex items-start">
+                          <div className="flex-shrink-0">
+                            <svg className="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                          <p className="ml-3 text-base font-medium text-gray-500">
+                            Vel ipsa esse repudiandae
+                          </p>
+                        </li>
+                      </ul>
+                      <div className="mt-8">
+                        <div className="rounded-lg shadow-md">
+                          <a href="#" className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-blue-600 hover:bg-gray-50" aria-describedby="tier-scale">
+                            Buy now
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-4 relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-20">
+            <div className="max-w-md mx-auto lg:max-w-5xl">
+              <div className="rounded-lg bg-gray-100 px-6 py-8 sm:p-10 lg:flex lg:items-center">
+                <div className="flex-1">
+                  <div>
+                    <h3 className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-white text-gray-800">
+                      Custom plan
+                    </h3>
+                  </div>
+                  <div className="mt-4 text-lg text-gray-600">
+                    Contact us today to build your own custom Intro.js plan. We can help you create a custom support plan according to your needs!
+                  </div>
+                </div>
+                <div className="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
+                  <a href="mailto:support@introjs.com" className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50">
+                    Contact us
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  )
 }
 
 export default Home;

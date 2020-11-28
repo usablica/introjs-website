@@ -13,3 +13,7 @@ a:hover {
 .footer ul {
   list-style: none;
 }
+
+p {
+  margin: 0;
+}
