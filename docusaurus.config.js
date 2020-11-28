@@ -6,10 +6,12 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'usablica', // Usually your GitHub org/user name.
-  projectName: 'intro.js', // Usually your repo name.
+  organizationName: 'usablica',
+  projectName: 'intro.js',
   themeConfig: {
+    image: '/img/social.png',
     navbar: {
+      hideOnScroll: true,
       title: 'Intro.js',
       logo: {
         alt: 'Intro.js',
@@ -100,6 +102,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           editUrl: 'https://github.com/usablica/introjs-website/edit/master/',
         },
         blog: {
