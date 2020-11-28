@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   title: 'Intro.js',
   tagline: 'Step-by-step onboarding tour library guide and feature introduction',
@@ -116,4 +118,7 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    path.resolve(__dirname, './plugins/tailwind')
+  ]
 };
