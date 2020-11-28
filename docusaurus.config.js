@@ -51,12 +51,16 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Intro.js',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Install',
+              to: 'docs/getting-started/install',
+            },
+            {
+              label: 'Quick Start',
+              to: 'docs/getting-started/start',
             },
           ],
         },
@@ -65,15 +69,11 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/intro.js',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/usablica',
             },
           ],
         },
@@ -86,7 +86,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/usablica/intro.js',
             },
           ],
         },
