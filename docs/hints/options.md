@@ -2,10 +2,19 @@
 title: Hints options
 ---
 
-*   `hintPosition`: Hint position. Default: `top-middle`
-*   `hintButtonLabel`: Hint button label. Default: ‘Got it’
-*   `hintAnimation`: To add animation to hints or not. Default: `true`
-*   `hints`: For definining hints using JSON configuration. Array of hint objects.
+## Options
+
+### `hintPosition`
+Hint position. Default: `top-middle`
+
+### `hintButtonLabel`
+Hint button label. Default: ‘Got it’
+
+### `hintAnimation`
+To add animation to hints or not. Default: `true`
+
+### `hints`
+For defining hints using JSON configuration. Array of hint objects.
 
 ## Hint data structure
 
@@ -18,7 +27,7 @@ title: Hints options
 }
 ```
 
-## Adding options
+## Updating options
 
 An example of adding an option:
 

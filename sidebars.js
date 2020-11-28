@@ -6,6 +6,11 @@ module.exports = {
       'getting-started/start',
       'getting-started/examples',
     ],
+    Intro: [
+      'intro/api',
+      'intro/attributes',
+      'intro/options'
+    ],
     Hints: [
       'hints/api',
       'hints/attributes',
