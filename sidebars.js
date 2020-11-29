@@ -7,6 +7,7 @@ module.exports = {
       'getting-started/examples',
       'getting-started/license',
       'support',
+      'community',
     ],
     Intro: [
       'intro/api',
