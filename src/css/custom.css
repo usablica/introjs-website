@@ -16,3 +16,17 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+ul, ol {
+  list-style: inherit;
+}
+
+ul.contents {
+  list-style: none;
+  border-left: 1px solid #d2d6dc;
+}
+
+.full-width > table {
+  width: 100%;
+  display: table;
+}
