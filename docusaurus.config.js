@@ -9,7 +9,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'usablica',
-  projectName: 'intro.js',
+  projectName: 'introjs-website',
   themeConfig: {
     image: '/img/social.png',
     googleAnalytics: {

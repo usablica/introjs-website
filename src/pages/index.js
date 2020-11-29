@@ -83,6 +83,31 @@ function Features() {
   </div>);
 }
 
+function startTour() {
+  introJs().setOptions({
+    steps: [{
+      intro: "Welcome to Intro.js live demo!"
+    }, {
+      element: document.querySelector('#headline'),
+      intro: "Using Intro.js, you can focus on HTML elements on the page."
+    }, {
+      element: document.querySelector('#install-assets'),
+      intro: "Intro.js finds the position of your elements on the page and changes the viewport automatically!"
+    }, {
+      element: document.querySelector('#install-example'),
+      intro: "Oh btw, it\'s super simple to install and use Intro.js!"
+    }, {
+      element: document.querySelector('#commercial-element-focus'),
+      intro: "Need commercial support? We are more than happy to help you successfully integrate Intro.js."
+    }, {
+      element: document.querySelector('#get-started-button'),
+      intro: "Get started now!"
+    }, {
+      intro: '<img src="https://i.giphy.com/media/E6jscXfv3AkWQ/giphy.webp" onerror="this.onerror=null;this.src="https://i.giphy.com/E6jscXfv3AkWQ.gif";" alt="">'
+    }]
+  }).start();
+}
+
 function Header() {
   const [isMenuOpen, setMenuState] = useState(false);
 
@@ -178,7 +203,7 @@ function Header() {
 
         <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
           <div className="text-center">
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl" id="headline">
               <span className="block xl:inline">Introduce users </span>
               <span className="block text-blue-600 xl:inline">to your product</span>
             </h1>
@@ -187,12 +212,12 @@ function Header() {
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow">
-                <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 hover:text-white md:py-4 md:text-lg md:px-10">
+                <button onClick={() => startTour()} className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 hover:text-white md:py-4 md:text-lg md:px-10">
                   Live demo
-                </a>
+                </button>
               </div>
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                <a href="/docs/getting-started/install" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                <a href="/docs/getting-started/install" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10" id="get-started-button">
                   Get Started
                 </a>
               </div>
@@ -345,7 +370,7 @@ function Install() {
           </p>
         </div>
         <div className="mt-12 grid gap-16 border-t-2 border-gray-100 pt-12 lg:grid-cols-2 lg:col-gap-5 lg:row-gap-12">
-          <div>
+          <div id="install-assets">
             <h3 className="mt-4 text-xl leading-7 font-semibold text-gray-900">
               <span className="inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase bg-blue-100 text-blue-600">
                 1
@@ -375,7 +400,7 @@ function Install() {
                      value="https://unpkg.com/intro.js/minified/introjs.min.css" />
             </div>
           </div>
-          <div>
+          <div id="install-example">
             <h3 className="mt-4 text-xl leading-7 font-semibold text-gray-900">
               <span className="inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase bg-blue-100 text-blue-600">
                 2
@@ -427,6 +452,8 @@ function Home() {
           <meta name="twitter:site" content="@usablica" />
           <meta name="twitter:creator" content="@afshinmeh" />
 
+          <script src="https://cdn.jsdelivr.net/npm/intro.js@3.0.1/intro.min.js"></script>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intro.js@3.0.1/minified/introjs.min.css" />
           <script src="https://js.stripe.com/v3"></script>
         </Head>
 
@@ -629,7 +656,7 @@ function Pricing() {
                       </div>
                     </div>
                   </div>
-                  <div className="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
+                  <div className="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10" id="commercial-element-focus">
                     <ul className="space-y-4">
                       <li className="flex items-start">
                         <div className="flex-shrink-0">
