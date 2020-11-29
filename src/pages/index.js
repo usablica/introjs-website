@@ -452,8 +452,8 @@ function Home() {
           <meta name="twitter:site" content="@usablica" />
           <meta name="twitter:creator" content="@afshinmeh" />
 
-          <script src="https://cdn.jsdelivr.net/npm/intro.js/intro.min.js"></script>
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intro.js/minified/introjs.min.css" />
+          <script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
+          <link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css" />
           <script src="https://js.stripe.com/v3"></script>
         </Head>
 
