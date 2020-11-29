@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useCallback, useEffect, useRef, useState} from 'react';
 import Head from '@docusaurus/Head';
 import ThemeProvider from '@theme/ThemeProvider';
 import UserPreferencesProvider from '@theme/UserPreferencesProvider';
@@ -12,7 +12,6 @@ import * as style from './styles.module.css';
 const features = [
   {
     title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
     icon: <>
       <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
@@ -427,6 +426,8 @@ function Home() {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@usablica" />
           <meta name="twitter:creator" content="@afshinmeh" />
+
+          <script src="https://js.stripe.com/v3"></script>
         </Head>
 
         <AnnouncementBar />
@@ -445,6 +446,64 @@ function Home() {
       </UserPreferencesProvider>
     </ThemeProvider>
   );
+}
+
+function PurchaseButton(plan) {
+  plan = (plan || '').toLowerCase();
+
+  const [isLoading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  const sku = {
+    'starter': 'sku_Fkz0duydyfrC9Q',
+    'business': 'sku_FkzCxN6s9yPWDI',
+    'premium': 'sku_FkzDVymdW8H4vw'
+  };
+
+  let buttonClass = "block w-full text-center rounded-lg border border-transparent white px-6 py-3 text-base font-medium text-blue-600 hover:bg-grblock w-full text-center rounded-lg border border-transparent white px-6 py-3 text-base font-medium text-blue-600 hover:bg-gray-50";
+
+  if (plan === 'business') {
+    buttonClass = 'block w-full text-center rounded-lg border border-transparent bg-blue-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-blue-700';
+  }
+
+  const purchasePlan = useCallback(
+    () => {
+      setLoading(true);
+
+      const stripe = Stripe('pk_live_ZSJq4BT73VGchztlGmdmDFc1');
+
+      stripe.redirectToCheckout({
+        items: [
+          {
+            sku: sku[plan],
+            quantity: 1
+          }],
+        successUrl: 'https://introjs.com/docs/success',
+        cancelUrl: 'https://introjs.com/#commercial',
+      }).then(function (result) {
+        setLoading(false);
+
+        if (result.error) {
+          setError(result.error.message);
+        }
+      });
+    },
+    [plan],
+  );
+
+  return (
+    <>
+      <div className="rounded-lg shadow-md">
+        <button
+          disabled={isLoading}
+          onClick={() => purchasePlan()}
+          className={`${buttonClass} ${isLoading ? "cursor-wait" : ""}`} aria-describedby="tier-hobby">
+          {isLoading ? "Processing..." : "Buy now"}
+        </button>
+      </div>
+      {error}
+    </>
+  )
 }
 
 function Pricing() {
@@ -537,11 +596,7 @@ function Pricing() {
                         </li>
                       </ul>
                       <div className="mt-8">
-                        <div className="rounded-lg shadow-md">
-                          <a href="#" className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-blue-600 hover:bg-gray-50" aria-describedby="tier-hobby">
-                            Buy now
-                          </a>
-                        </div>
+                        {PurchaseButton('starter')}
                       </div>
                     </div>
                   </div>
@@ -632,11 +687,7 @@ function Pricing() {
                       </li>
                     </ul>
                     <div className="mt-10">
-                      <div className="rounded-lg shadow-md">
-                        <a href="#" className="block w-full text-center rounded-lg border border-transparent bg-blue-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-blue-700" aria-describedby="tier-growth">
-                          Buy now
-                        </a>
-                      </div>
+                      {PurchaseButton('business')}
                     </div>
                   </div>
                 </div>
@@ -719,11 +770,7 @@ function Pricing() {
                         </li>
                       </ul>
                       <div className="mt-8">
-                        <div className="rounded-lg shadow-md">
-                          <a href="#" className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-blue-600 hover:bg-gray-50" aria-describedby="tier-scale">
-                            Buy now
-                          </a>
-                        </div>
+                        {PurchaseButton('premium')}
                       </div>
                     </div>
                   </div>
