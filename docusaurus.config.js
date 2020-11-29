@@ -12,6 +12,9 @@ module.exports = {
   projectName: 'intro.js',
   themeConfig: {
     image: '/img/social.png',
+    googleAnalytics: {
+      trackingID: 'UA-69239984-1',
+    },
     navbar: {
       hideOnScroll: true,
       title: 'Intro.js',
