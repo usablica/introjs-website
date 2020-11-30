@@ -71,7 +71,7 @@
 
     <script type="text/javascript">
       function startTour() {
-        introJs().start().onbeforeexit(function () {
+        introJs().setOptions({ 'hideNext': true, 'hidePrev': true, exitOnOverlayClick: false }).start().onbeforeexit(function () {
           return confirm("Are you sure?");
         });
       }
