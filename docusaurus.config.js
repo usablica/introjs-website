@@ -12,6 +12,11 @@ module.exports = {
   projectName: 'introjs-website',
   themeConfig: {
     image: '/img/social.png',
+    algolia: {
+      apiKey: 'ce8096f2ee2b3ba8c0534e99997ec07f',
+      indexName: 'introjs',
+      algoliaOptions: {} // Optional, if provided by Algolia
+    },
     googleAnalytics: {
       trackingID: 'UA-69239984-1',
     },

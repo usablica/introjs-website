@@ -20,10 +20,13 @@ Skip button label
 Done button label
 
 ### `hidePrev`
-Hide previous button in the first step? Otherwise, it will be disabled button.
+Hide the previous button in the first step? Otherwise, it will render a disabled button.
 
 ### `hideNext`
-Hide next button in the last step? Otherwise, it will be disabled button.
+Hide the next button in the last step? Otherwise, it will render a disabled button. (**Note:** this will also hide the "Done" button)
+
+### `nextToDone`
+Change the next button's label to `doneLabel` in the last step of the intro? otherwise, it will render a disabled button
 
 ### `tooltipPosition`
 Default tooltip position
