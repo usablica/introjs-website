@@ -5,8 +5,8 @@ title: Examples
 ## Intros
 
 *   [Basic usage](http://introjs.com/example/hello-world/index.html "Basic usage")
-*   [Basic usage with buttons](http://introjs.com/example/hello-world/withoutBullets.html "Basic usage with buttons")
-*   [Basic usage with bullets](http://introjs.com/example/hello-world/withoutButtons.html "Basic usage with bullets")
+*   [Basic usage with buttons](http://introjs.com/example/hello-world/withoutButtons.html "Basic usage with buttons")
+*   [Basic usage with bullets](http://introjs.com/example/hello-world/withoutBullets.html "Basic usage with bullets")
 *   [Basic usage with progress-bar](http://introjs.com/example/hello-world/withProgress.html "Basic usage with progress-bar")
 *   [Confirm before exit](http://introjs.com/example/hello-world/exit-confirm.html "Shows a confirm before exit")
 *   [Programmatic defining using JSON](http://introjs.com/example/programmatic/index.html "Programmatic defining using JSON")
