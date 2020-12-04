@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Sitemap: https://introjs.com/sitemap.xml
+

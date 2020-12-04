@@ -208,7 +208,7 @@ function Header() {
               <span className="block text-blue-600 xl:inline">to your product</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Intro.js is a popular, open-source onboarding library
+              Intro.js is a lightweight library for creating step-by-step customer onboarding
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow">
@@ -438,16 +438,16 @@ function Home() {
           <meta property="og:title" content={`${siteConfig.title} - ${siteConfig.tagline}`} />
           <link rel="shortcut icon" href="/img/favicon.ico" />
           <meta name="author" content="Afshin Mehrabani" />
-          <meta name="description" content="Intro.js is a lightweight, open-source product onboarding library" />
-          <meta property="og:description" content="Intro.js is a lightweight, open-source product onboarding library" />
-          <meta name="keywords" content="intro, introjs, intro.js, javascript, jquery, react, onboarding, tour, product tour, product onboarding" />
+          <meta name="description" content="Intro.js is a lightweight, open-source customer onboarding plugin. Intro.js helps you create step-by-step product tours, user onboarding guides easily." />
+          <meta property="og:description" content="Intro.js is a lightweight, open-source customer onboarding plugin. Intro.js helps you create step-by-step product tours, user onboarding guides easily." />
+          <meta name="keywords" content="intro, introjs, intro.js, javascript, jquery, react, onboarding, tour, product tour, product onboarding, guiding, customer guiding, user guiding" />
           <meta property="og:image" content="https://introjs.com/img/social.png" />
           <meta property="og:url" content="https://introjs.com/" />
           <meta property="og:type" content="website" />
           <meta name="twitter:image" content="https://introjs.com/img/social.png" />
           <meta name="twitter:title" content={`${siteConfig.title} - ${siteConfig.tagline}`} />
           <meta name="twitter:image:alt" content={`${siteConfig.title} - ${siteConfig.tagline}`} />
-          <meta name="twitter:description" content="Intro.js is a lightweight, open-source product onboarding library" />
+          <meta name="twitter:description" content="Intro.js is a lightweight, open-source customer onboarding plugin. Intro.js helps you create step-by-step product tours, user onboarding guides easily." />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@usablica" />
           <meta name="twitter:creator" content="@afshinmeh" />
