@@ -1,6 +1,7 @@
 ---
 slug: tips-for-more-engaging-product-tours
 title: 5 Tips for More Engaging Product Tours
+description: Product tours play a significant role in user onboarding. The goal of product tours is to make people fall in love with your product or feature. You guide them through this process persuade them to take action.
 author: Afshin Mehrabani
 author_title: Author of Intro.js
 author_url: https://github.com/afshinm
