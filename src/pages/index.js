@@ -163,6 +163,8 @@ function Header() {
 
               <a href="https://github.com/usablica/intro.js/releases" className="font-medium text-gray-500 hover:text-gray-900" target="_blank">Download</a>
 
+              <a href="/blog" className="font-medium text-gray-500 hover:text-gray-900">Blog</a>
+
               <a href="https://github.com/usablica/intro.js" className="font-medium text-gray-500 hover:text-gray-900" target="_blank">GitHub</a>
             </div>
           </nav>
@@ -545,7 +547,7 @@ function Pricing() {
             Lifetime license. Once-off payment.
           </p>
           <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
-            Intro.js is AGPL-licensed and open-source. However, if you want to use Intro.js in your commercial app, website or plugin, you would need to obtain a commercial license.
+            Intro.js is AGPL-licensed and open-source.  However, if you want to use Intro.js in your commercial app, website or plugin, you would need to obtain a commercial license.
           </p>
         </div>
       </div>
