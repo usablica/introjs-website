@@ -295,13 +295,13 @@ function Footer() {
                     </a>
                   </li>
                   <li className="mt-4">
-                    <a href="https://github.com/usablica/intro.js/graphs/contributors" className="text-base leading-6 text-gray-300 hover:text-white" target="_blank">
-                      Contributors
+                    <a href="https://github.com/usablica/intro.js" className="text-base leading-6 text-gray-300 hover:text-white" target="_blank">
+                      GitHub
                     </a>
                   </li>
                   <li className="mt-4">
-                    <a href="https://github.com/usablica/intro.js" className="text-base leading-6 text-gray-300 hover:text-white">
-                      GitHub
+                    <a href="https://gridjs.io" title="Grid.js - Advanced table plugin" className="text-base leading-6 text-gray-300 hover:text-white" target="_blank">
+                      Grid.js
                     </a>
                   </li>
                 </ul>
