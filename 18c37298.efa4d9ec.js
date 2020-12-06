@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{73:function(o){o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"5 Tips for More Engaging Product Tours","permalink":"/blog/tips-for-more-engaging-product-tours"},{"title":"Intro.js v3 \ud83c\udf89","permalink":"/blog/introjs-v3"}]}')}}]);
