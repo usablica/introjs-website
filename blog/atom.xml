@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://introjs.com/blog</id>
+    <title>Intro.js Blog</title>
+    <updated>2020-12-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://introjs.com/blog"/>
+    <subtitle>Intro.js Blog</subtitle>
+    <icon>https://introjs.com/img/favicon.ico</icon>
+    <rights>Copyright © 2020 Usablica Limited</rights>
+    <entry>
+        <title type="html"><![CDATA[Five Amazing Benefits of User Onboarding You Should Know]]></title>
+        <id>five-amazing-benefits-of-user-onboarding-you-should-know</id>
+        <link href="https://introjs.com/blog/five-amazing-benefits-of-user-onboarding-you-should-know"/>
+        <updated>2020-12-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[User onboarding is the most significant part of the digital user experience. If designed carefully, it can eventually result in the user who is becoming your brand's regular user.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Tips for More Engaging Product Tours]]></title>
+        <id>tips-for-more-engaging-product-tours</id>
+        <link href="https://introjs.com/blog/tips-for-more-engaging-product-tours"/>
+        <updated>2020-12-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Product tours play a significant role in user onboarding. The goal of product tours is to make people fall in love with your product or feature. You guide them through this process persuade them to take action.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intro.js v3 🎉]]></title>
+        <id>introjs-v3</id>
+        <link href="https://introjs.com/blog/introjs-v3"/>
+        <updated>2020-11-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I'm more than happy to announce that we have released the Intro.js v3! This version fixes major issues and adds a lot of new features!]]></summary>
+    </entry>
+</feed>

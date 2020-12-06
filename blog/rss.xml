@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Intro.js Blog</title>
+        <link>https://introjs.com/blog</link>
+        <description>Intro.js Blog</description>
+        <lastBuildDate>Sun, 06 Dec 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <copyright>Copyright © 2020 Usablica Limited</copyright>
+        <item>
+            <title><![CDATA[Five Amazing Benefits of User Onboarding You Should Know]]></title>
+            <link>https://introjs.com/blog/five-amazing-benefits-of-user-onboarding-you-should-know</link>
+            <guid>five-amazing-benefits-of-user-onboarding-you-should-know</guid>
+            <pubDate>Sun, 06 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[User onboarding is the most significant part of the digital user experience. If designed carefully, it can eventually result in the user who is becoming your brand's regular user.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[5 Tips for More Engaging Product Tours]]></title>
+            <link>https://introjs.com/blog/tips-for-more-engaging-product-tours</link>
+            <guid>tips-for-more-engaging-product-tours</guid>
+            <pubDate>Sat, 05 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Product tours play a significant role in user onboarding. The goal of product tours is to make people fall in love with your product or feature. You guide them through this process persuade them to take action.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Intro.js v3 🎉]]></title>
+            <link>https://introjs.com/blog/introjs-v3</link>
+            <guid>introjs-v3</guid>
+            <pubDate>Sun, 29 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[I'm more than happy to announce that we have released the Intro.js v3! This version fixes major issues and adds a lot of new features!]]></description>
+        </item>
+    </channel>
+</rss>
