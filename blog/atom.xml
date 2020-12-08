@@ -2,16 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://introjs.com/blog</id>
     <title>Intro.js Blog</title>
-    <updated>2020-12-06T00:00:00.000Z</updated>
+    <updated>2020-12-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://introjs.com/blog"/>
     <subtitle>Intro.js Blog</subtitle>
     <icon>https://introjs.com/img/favicon.ico</icon>
     <rights>Copyright © 2020 Usablica Limited</rights>
     <entry>
+        <title type="html"><![CDATA[Best Tools for Startup Growth Hackers in 2021]]></title>
+        <id>best-tools-for-startup-growth-hackers-in-2021</id>
+        <link href="https://introjs.com/blog/best-tools-for-startup-growth-hackers-in-2021"/>
+        <updated>2020-12-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What makes a startup fail in most cases soon after it commences? The answer is not making its presence known in the required amount of time. That's when growth hacking comes into the picture. Growth hacking has been around for over a decade now. You can call it a branch or type of marketing in one way, but there is one difference between mainstream digital marketing and growth hacking. The focus of growth hacking is simply growth. It does not focus on selling a single product like marketing does at a time. Growth hacking is supposed to be all about creative tactics and carrying out well-thought-out strategies.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Structure a Successful User Onboarding Experience]]></title>
+        <id>how-to-structure-a-successful-user-onboarding-experience</id>
+        <link href="https://introjs.com/blog/how-to-structure-a-successful-user-onboarding-experience"/>
+        <updated>2020-12-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A user onboarding experience is a crucial process that determines an important outcome. This process is basically designed for users to go through a responsive guide about a product or software. In a user onboarding experience, a user gets to find out the benefits of the product they’ll be getting. The goal of these programs is to encourage users to opt for a product. Call it an automated form of marketing, but user onboarding experiences can help a user bond with your product or software. It also doesn’t stop after giving the user an overview of the particular product, instead, the user then gets to give their feedback about their overall experience.]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Five Amazing Benefits of User Onboarding You Should Know]]></title>
         <id>five-amazing-benefits-of-user-onboarding-you-should-know</id>
         <link href="https://introjs.com/blog/five-amazing-benefits-of-user-onboarding-you-should-know"/>
+        <updated>2020-12-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[User onboarding is the most significant part of the digital user experience. If designed carefully, it can eventually result in the user who is becoming your brand's regular user.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Ways to Increase the Free Trial Conversion Rate]]></title>
+        <id>ways-to-increase-the-free-trial-conversion-rate</id>
+        <link href="https://introjs.com/blog/ways-to-increase-the-free-trial-conversion-rate"/>
         <updated>2020-12-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[User onboarding is the most significant part of the digital user experience. If designed carefully, it can eventually result in the user who is becoming your brand's regular user.]]></summary>
     </entry>
