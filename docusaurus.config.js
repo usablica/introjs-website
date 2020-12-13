@@ -26,6 +26,8 @@ module.exports = {
       logo: {
         alt: 'Intro.js',
         src: 'img/logo.svg',
+	href: 'https://introjs.com',
+	target: '_self'
       },
       items: [
         {
