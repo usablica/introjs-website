@@ -26,29 +26,29 @@ module.exports = {
       logo: {
         alt: 'Intro.js',
         src: 'img/logo.svg',
-	href: 'https://introjs.com',
-	target: '_self'
+        href: 'https://introjs.com',
+        target: '_self'
       },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: '📚 Docs',
+          label: 'Docs',
           position: 'left',
         },
         {
           to: 'https://github.com/usablica/intro.js/releases',
-          label: '💾 Download',
+          label: 'Download',
           position: 'left'
         },
         {
           to: '/docs/support',
-          label: '💡 Support',
+          label: 'Support',
           position: 'left'
         },
         {
           to: 'blog',
-          label: '📝 Blog',
+          label: 'Blog',
           position: 'left'
         },
         {
