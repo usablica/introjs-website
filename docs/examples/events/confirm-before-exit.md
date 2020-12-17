@@ -9,7 +9,7 @@ keywords:
 import { LiveExample } from "../../../lib/liveExample.js";
 import { DemoWidget } from "../../../lib/demoWidget.js";
 
-Use the `onexit` callback to get a confirmation before closing the tour:
+Use the `onbeforeexit` callback to get a confirmation before closing the tour:
 
 <LiveExample children={
 `introJs().onbeforeexit(function () {

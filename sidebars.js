@@ -30,6 +30,7 @@ module.exports = {
           type: 'category',
           label: 'Customizing',
           items: [
+            'examples/customizing/html-tooltip',
             'examples/customizing/progress-bar',
             'examples/customizing/without-buttons',
             'examples/customizing/without-bullets',
