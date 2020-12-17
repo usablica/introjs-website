@@ -22,7 +22,8 @@ module.exports = {
           label: 'Basic',
           items: [
             'examples/basic/hello-world',
-            'examples/basic/json-config'
+            'examples/basic/json-config',
+            'examples/basic/floating-tooltip',
           ]
         },
         {
@@ -32,6 +33,13 @@ module.exports = {
             'examples/customizing/progress-bar',
             'examples/customizing/without-buttons',
             'examples/customizing/without-bullets',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Events',
+          items: [
+            'examples/events/confirm-before-exit',
           ]
         }
       ]
