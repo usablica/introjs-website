@@ -34,6 +34,7 @@ module.exports = {
             'examples/customizing/progress-bar',
             'examples/customizing/without-buttons',
             'examples/customizing/without-bullets',
+            'examples/customizing/disable-interaction',
           ]
         },
         {
