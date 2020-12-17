@@ -24,6 +24,15 @@ module.exports = {
             'examples/basic/hello-world',
             'examples/basic/json-config'
           ]
+        },
+        {
+          type: 'category',
+          label: 'Customizing',
+          items: [
+            'examples/customizing/progress-bar',
+            'examples/customizing/without-buttons',
+            'examples/customizing/without-bullets',
+          ]
         }
       ]
     },
