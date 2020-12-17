@@ -21,6 +21,7 @@ module.exports = {
           type: 'category',
           label: 'Basic',
           items: [
+            'examples/basic/hello-world',
             'examples/basic/json-config'
           ]
         }
