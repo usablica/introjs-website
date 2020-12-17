@@ -30,3 +30,11 @@ ul.contents {
   width: 100%;
   display: table;
 }
+
+.demo-container {
+  align-items: center;
+  border-radius: var(--ifm-global-radius);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
