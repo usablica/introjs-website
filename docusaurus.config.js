@@ -139,6 +139,7 @@ module.exports = {
   ],
   themes: [require.resolve('@docusaurus/theme-live-codeblock')],
   plugins: [
+    path.resolve(__dirname, './plugins/jsdom'),
     path.resolve(__dirname, './plugins/tailwind')
   ]
 };
