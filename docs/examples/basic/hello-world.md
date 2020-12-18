@@ -10,7 +10,7 @@ import { LiveExample } from "../../../lib/liveExample.js";
 import { DemoWidget } from "../../../lib/demoWidget.js";
 
 
-You can create your product tour using `data-intro` and `data-title` HTML attributes. Simply add those attributs to your
+You can create your product tour using `data-intro` and `data-title` HTML attributes. Simply add those attributes to your
 elements and call `introjJs().start()`:
 
 ```jsx title="index.html"
