@@ -1,5 +1,5 @@
 ---
-title: Intro options
+title: Tour options
 ---
 
 ## Options

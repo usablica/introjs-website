@@ -46,3 +46,8 @@ introJs().start();
 <br/>
 
 <DemoWidget></DemoWidget>
+
+
+:::tip
+You can also use `data-step` to change the ordering of each step of your product tour, more details: [Tour HTML attributes](../../intro/attributes.md).
+:::

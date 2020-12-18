@@ -1,5 +1,5 @@
 ---
-title: Intro API
+title: Tour API
 ---
 
 ## introJs(\[targetElm\])

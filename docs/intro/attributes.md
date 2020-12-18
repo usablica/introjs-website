@@ -1,5 +1,5 @@
 ---
-title: Intro HTML Attributes
+title: Tour HTML Attributes
 ---
 
 You can use these HTML attributes to manage or alter intro elements.

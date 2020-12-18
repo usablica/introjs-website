@@ -24,6 +24,7 @@ module.exports = {
             'examples/basic/hello-world',
             'examples/basic/json-config',
             'examples/basic/floating-tooltip',
+            'examples/basic/tooltip-positions',
           ]
         },
         {
@@ -47,7 +48,7 @@ module.exports = {
       ]
     },
     {
-      label: "Intro",
+      label: "Tour",
       type: 'category',
       items: [
         'intro/api',
