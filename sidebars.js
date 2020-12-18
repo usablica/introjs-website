@@ -46,6 +46,13 @@ module.exports = {
           items: [
             'examples/events/confirm-before-exit',
           ]
+        },
+        {
+          type: 'category',
+          label: 'Advanced',
+          items: [
+            'examples/advanced/svg',
+          ]
         }
       ]
     },
