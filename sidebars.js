@@ -32,10 +32,12 @@ module.exports = {
           label: 'Customizing',
           items: [
             'examples/customizing/html-tooltip',
+            'examples/customizing/css-class',
             'examples/customizing/progress-bar',
             'examples/customizing/without-buttons',
             'examples/customizing/without-bullets',
             'examples/customizing/disable-interaction',
+            'examples/customizing/rtl',
           ]
         },
         {
