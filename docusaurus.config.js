@@ -37,6 +37,11 @@ module.exports = {
           position: 'left',
         },
         {
+          to: '/docs/examples/basic/hello-world',
+          label: 'Examples',
+          position: 'left'
+        },
+        {
           to: 'https://github.com/usablica/intro.js/releases',
           label: 'Download',
           position: 'left'
@@ -49,7 +54,7 @@ module.exports = {
         {
           to: 'blog',
           label: 'Blog',
-          position: 'left'
+          position: 'right'
         },
         {
           href: 'https://github.com/usablica/intro.js',

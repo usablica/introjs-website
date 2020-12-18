@@ -7,7 +7,7 @@ module.exports = {
         'index',
         'getting-started/install',
         'getting-started/start',
-        'getting-started/examples',
+        'examples/basic/hello-world',
         'getting-started/license',
         'support',
         'community'
