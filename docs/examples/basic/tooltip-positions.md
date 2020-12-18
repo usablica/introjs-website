@@ -9,7 +9,8 @@ keywords:
 import { LiveExample } from "../../../lib/liveExample.js";
 import { DemoWidget } from "../../../lib/demoWidget.js";
 
-You can explicitly define the tooltip position for each step using the [`position`](../../intro/options.md) config:
+Intro.js automatically finds the best position for the tooltips, but you can explicitly define 
+the tooltip position for each step using the [`position`](../../intro/options.md) config:
 
 <LiveExample children={
 `introJs().setOptions({
