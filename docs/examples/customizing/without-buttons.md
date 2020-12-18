@@ -14,7 +14,7 @@ Use the `showButtons` flag to show/hide all buttons in your product tour:
 <LiveExample children={
 `introJs().setOptions({
   showButtons: false
-})
+}).start()
 `
 } />
 

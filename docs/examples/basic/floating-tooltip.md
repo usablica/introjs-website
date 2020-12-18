@@ -24,7 +24,7 @@ Using the JSON configs, you can create floating tooltips that don't highlight a 
     element: document.querySelector('.card-demo'),
     intro: 'This step focuses on an element'
   }]
-});
+}).start();
 `
 } />
 

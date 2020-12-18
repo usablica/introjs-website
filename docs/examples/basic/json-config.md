@@ -31,7 +31,7 @@ You can interact with the following editor!
     element: document.querySelector('.card__image'),
     intro: 'And this is our final step!'
   }]
-});
+}).start();
 `
 } />
 

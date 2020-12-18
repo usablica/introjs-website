@@ -13,7 +13,7 @@ import { DemoWidget } from "../../../lib/demoWidget.js";
 You can create your product tour using `data-intro` and `data-title` HTML attributes. Simply add those attributs to your
 elements and call `introjJs().start()`:
 
-```jsx
+```jsx title="index.html"
 <div data-title="Welcome!" data-intro="Hello World! 👋" class="card-demo">
   <div class="card shadow--md">
     <div class="card__image" data-intro="Intro.js can highlight on elements">
@@ -35,9 +35,11 @@ elements and call `introjJs().start()`:
 </div>
 ```
 
+And then call `introJs().start()`:
+
 <LiveExample children={
 `// Intro.js scans the webpage and finds all elements with \`data-intro\` attribute
-introJs();
+introJs().start();
 `
 } />
 

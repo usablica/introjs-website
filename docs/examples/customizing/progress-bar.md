@@ -13,7 +13,7 @@ import { DemoWidget } from "../../../lib/demoWidget.js";
 <LiveExample children={
 `introJs().setOptions({
   showProgress: true,
-})
+}).start()
 `
 } />
 

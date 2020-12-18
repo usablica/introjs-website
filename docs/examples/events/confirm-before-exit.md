@@ -14,7 +14,7 @@ Use the `onbeforeexit` callback to get a confirmation before closing the tour:
 <LiveExample children={
 `introJs().onbeforeexit(function () {
   return confirm("Are you sure?");
-})
+}).start()
 `
 } />
 

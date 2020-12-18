@@ -33,7 +33,7 @@ To disable this behavior, use the `disableInteraction` option:
     element: document.querySelector('.card__image'),
     intro: 'And this is our final step!'
   }]
-});
+}).start();
 `
 } />
 

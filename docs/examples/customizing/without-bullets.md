@@ -14,7 +14,7 @@ Use the `showBullets` flag to show/hide the bullets in your product tour:
 <LiveExample children={
 `introJs().setOptions({
   showBullets: false
-})
+}).start()
 `
 } />
 
