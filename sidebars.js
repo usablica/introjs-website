@@ -53,6 +53,7 @@ module.exports = {
           label: 'Advanced',
           items: [
             'examples/advanced/svg',
+            'examples/advanced/scrollable-element',
           ]
         }
       ]

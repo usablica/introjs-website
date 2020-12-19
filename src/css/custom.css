@@ -47,3 +47,9 @@ ul.contents {
 .customTooltip .introjs-tooltip-title {
   color: #0a41c9;
 }
+
+.scrollable-element-demo {
+  height: 300px;
+  height: 40vh;
+  overflow: auto;
+}
