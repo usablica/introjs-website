@@ -5,7 +5,7 @@ title: Tour options
 ## Options
 
 ### `steps`
-For defining steps using JSON configuration (see [this](https://github.com/usablica/intro.js/blob/master/example/programmatic/index.html) example)
+For defining steps using JSON configuration (see the [JSON Config](../examples/basic/json-config.md) example)
 
 ### `nextLabel`
 Next button label
