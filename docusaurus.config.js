@@ -118,7 +118,6 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         sitemap: {
-          cacheTime: 600 * 1000,
           changefreq: 'weekly',
           priority: 0.5,
         },
