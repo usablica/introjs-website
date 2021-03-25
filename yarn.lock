@@ -5783,10 +5783,10 @@ interpret@^1.0.0:
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==
 
-intro.js@^3.2.0:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/intro.js/-/intro.js-3.3.1.tgz#f9fa4253b159bd640f06d86ca67248bab7f6579f"
-  integrity sha512-Y+iMbIzVQou9PDRP5miKa7NNQeUkSA6XFp+atnGiTarEi2jghthSLK+9JUvdM6QvQ9G+bpOEfKd+DNtWJlGb9w==
+intro.js@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/intro.js/-/intro.js-3.4.0.tgz#615475f93988369e2ef25da2c397c82c150df4e0"
+  integrity sha512-LlOM5izNtkPEtjusCYDZs6Nt9JrykpUuqWh5bfQJtWVMWtg2vGzxzJDGrTdF9XUzVZvWzVIdkga/M/z8AX6hlg==
 
 ip-regex@^2.1.0:
   version "2.1.0"
