@@ -6,8 +6,6 @@ title: Tour API
 
 Creating an introJs object.
 
-**Available since**: v0.1.0
-
 **Parameters:**
 
  - targetElm : String (optional) Should be defined to start introduction for specific element, for example: `#intro-farm`.
@@ -29,8 +27,6 @@ introJs("#intro-farm") //start introduction for element id='intro-farm'
 
 Start the introduction for defined element(s).
 
-**Available since**: v0.1.0
-
 **Returns:**
 
  - introJs object.
@@ -46,8 +42,6 @@ introJs().start()
 ## introJs.goToStep(step)
 
 Go to specific step of introduction.
-
-**Available since**: v0.3.0
 
 **Parameters:**
 
@@ -68,8 +62,6 @@ introJs().goToStep(2).start(); //starts introduction from step 2
 ## introJs.goToStepNumber(step)
 
 Go to specific step of introduction with the concrete step. This differs from `goToStep` in the way that `data-step` does not have be continuous to pick the desired element.
-
-**Available since**: v2.x
 
 **Parameters:**
 
@@ -129,8 +121,6 @@ introJs().addSteps([{
 
 Go to next step of introduction.
 
-**Available since**: v0.7.0
-
 **Returns:**
 
  - introJs object.
@@ -147,8 +137,6 @@ introJs().start().nextStep();
 
 Go to previous step of introduction.
 
-**Available since**: v0.7.0
-
 **Returns:**
 
  - introJs object.
@@ -164,8 +152,6 @@ introJs().goToStep(3).start().previousStep(); //starts introduction from step 2
 ## introJs.exit(\[force\])
 
 Exit the introduction.
-
-**Available since**: v0.3.0
 
 **Parameters:**
 
@@ -187,8 +173,6 @@ introJs().exit()
 
 Set a single option to introJs object.
 
-**Available since**: v0.3.0
-
 **Parameters:**
 
  - option : String Option - key name.
@@ -209,8 +193,6 @@ introJs().setOption("skipLabel", "Exit");
 ## introJs.setOptions(options)
 
 Set a group of options to the introJs object.
-
-**Available since**: v0.3.0
 
 **Parameters:**
 
@@ -235,9 +217,9 @@ introJs().setOptions({
 
 To refresh and order layers manually. This function rearranges all hints as well.
 
-**Available since**: v0.5.0
+**Parameters:**
 
-**Last update**: v2.1.0
+- refreshSteps : Boolean - To fetch and refresh the Intro steps as well
 
 **Returns:**
 
@@ -254,8 +236,6 @@ introJs().refresh();
 ## introJs.oncomplete(providedCallback)
 
 Set callback for when introduction completed.
-
-**Available since**: v0.2.0
 
 **Parameters:**
 
@@ -279,8 +259,6 @@ introJs().oncomplete(function() {
 
 Set callback to exit of introduction. Exit also means pressing `ESC` key and clicking on the overlay layer by the user.
 
-**Available since:** v0.2.0
-
 **Parameters:**
 
  - providedCallback : Function
@@ -302,8 +280,6 @@ introJs().onexit(function() {
 ## introJs.onbeforeexit(providedCallback)
 
 Works exactly same as `onexit` but calls before closing the tour. Also, returning `false` would prevent the tour from closing.
-
-**Available since:** v0.2.7
 
 **Parameters:**
 
@@ -330,8 +306,6 @@ introJs().onbeforeexit(function() {
 
 Set callback to change of each step of introduction. Given callback function will be called after completing each step. The callback function receives the element of the new step as an argument.
 
-**Available since:** v0.3.0
-
 **Parameters:**
 
  - providedCallback : Function
@@ -354,8 +328,6 @@ introJs().onchange(function(targetElement) {
 
 Given callback function will be called before starting a new step of introduction. The callback function receives the element of the new step as an argument.
 
-**Available since:** v0.4.0
-
 **Parameters:**
 
  - providedCallback : Function
@@ -377,8 +349,6 @@ introJs().onbeforechange(function(targetElement) {
 ## introJs.onafterchange(providedCallback)
 
 Given callback function will be called after starting a new step of introduction. The callback function receives the element of the new step as an argument.
-
-**Available since:** v0.7.0
 
 **Parameters:**
 
