@@ -22,7 +22,7 @@ To disable this behavior, use the `disableInteraction` option:
   },
   {
     element: document.querySelector('.card-demo'),
-    intro: 'You cannot select the text because "disableInteractoin" is enabled'
+    intro: 'You cannot select the text because "disableInteraction" is enabled'
   },
   {
     element: document.querySelector('.card-demo-link'),
