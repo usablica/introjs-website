@@ -27,16 +27,16 @@ Fill our this form to send us a message or send us an email at [support@introjs.
 >
   <div>
     <label
-      htmlFor="first-name"
+      htmlFor="full-name"
       className="block text-sm font-medium text-gray-900"
     >
-      First name
+      Full name
     </label>
     <div className="mt-1">
       <input
         type="text"
-        name="first-name"
-        id="first-name"
+        name="full-name"
+        id="full-name"
         autoComplete="given-name"
         className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-blue-500 focus:border-blue-500 border border-gray-300 rounded-md"
         required
