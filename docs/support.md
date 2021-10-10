@@ -16,7 +16,7 @@ First of all, please consider obtaining a license for your Introjs instance if y
 *   Do you want to customize your **Intro.js**?
 *   Do you have any questions about the library?
 
-Send us an email to [support@introjs.com](mailto:support@introjs.com) and we will be more than happy to help you.
+Fill our this form to send us a message or send us an email at [support@introjs.com](mailto:support@introjs.com).
 
 ## Send us a message
 
