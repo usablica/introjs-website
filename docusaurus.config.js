@@ -52,7 +52,7 @@ module.exports = {
           position: 'left'
         },
         {
-          to: '/contact',
+          to: 'https://introjs.com/contact',
           label: 'Contact us',
           position: 'left',
           target: '_blank'
