@@ -39,6 +39,7 @@ Fill our this form to send us a message or send us an email at [support@introjs.
         id="first-name"
         autoComplete="given-name"
         className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-blue-500 focus:border-blue-500 border border-gray-300 rounded-md"
+        required
       />
     </div>
   </div>
@@ -56,6 +57,7 @@ Fill our this form to send us a message or send us an email at [support@introjs.
         type="email"
         autoComplete="email"
         className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-blue-500 focus:border-blue-500 border border-gray-300 rounded-md"
+        required
       />
     </div>
   </div>
@@ -95,6 +97,7 @@ Fill our this form to send us a message or send us an email at [support@introjs.
           className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-blue-500 focus:border-blue-500 border border-gray-300 rounded-md"
           aria-describedby="message-max"
           defaultValue={""}
+          required
         />
     </div>
   </div>
