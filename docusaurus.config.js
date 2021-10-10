@@ -52,6 +52,12 @@ module.exports = {
           position: 'left'
         },
         {
+          to: '/contact',
+          label: 'Contact us',
+          position: 'left',
+          target: '_blank'
+        },
+        {
           to: 'blog',
           label: 'Blog',
           position: 'right'
