@@ -6474,10 +6474,10 @@
   "resolved" "https://registry.npmjs.org/interpret/-/interpret-1.4.0.tgz"
   "version" "1.4.0"
 
-"intro.js@^4.0.0":
-  "integrity" "sha512-IS8+p4rpnWUq2Vd8YRgjR8w9lbyLvT0ptscBqA4iudO68oven39CvxHfxopfwlNUGgmgcyX17DOETof+D90AXA=="
-  "resolved" "https://registry.npmjs.org/intro.js/-/intro.js-4.0.0.tgz"
-  "version" "4.0.0"
+"intro.js@^4.3.0":
+  "integrity" "sha512-F4LXM42QIXcO3/2myGBBFdbbUVUK0lBhK7pAxPLd082u+3HfvigFR+Rptqy05q3OzjG/O0vMFDedrnHdSPi2rQ=="
+  "resolved" "https://registry.npmjs.org/intro.js/-/intro.js-4.3.0.tgz"
+  "version" "4.3.0"
 
 "ip-regex@^2.1.0":
   "integrity" "sha1-+ni/XS5pE8kRzp+BnuUUa7bYROk="
