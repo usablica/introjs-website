@@ -3,11 +3,11 @@ title: Intro.js
 slug: /
 ---
 
-Intro.js is an open source vanilla Javascript / CSS library to add step-by-step introduction or hints.
+Intro.js is an open source vanilla Javascript / CSS library to add step-by-step introductions or hints.
 
 ## Dependencies
 
-Intro.js doesn't have any dependencies. All you need to do is adding the JS and CSS file, that’s it.
+Intro.js doesn't have any dependencies. All you need to do is add the JS and CSS file.
 
 ## Authors
 
