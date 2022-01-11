@@ -133,14 +133,6 @@ module.exports = {
           showLastUpdateTime: true,
           editUrl: 'https://github.com/usablica/introjs-website/edit/master/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/usablica/introjs-website/edit/master/blog/',
-          feedOptions: {
-            type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Usablica Limited`,
-          },
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
