@@ -18,6 +18,6 @@ Please file a [feature request](https://github.com/usablica/intro.js/issues/new?
 
 ## Blog
 
-Read our [blog](/blog) for the latest updates and announcements or follow our Twitter account 
+Read our [blog](https://introjs.com/blog) for the latest updates and announcements or follow our Twitter account 
 [@usablica](https://twitter.com/usablica)
 

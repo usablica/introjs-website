@@ -24,7 +24,7 @@ module.exports = {
       hideOnScroll: true,
       title: 'Intro.js',
       logo: {
-        alt: 'Intro.js',
+        alt: 'Intro.js logo',
         src: 'img/logo.svg',
         href: 'https://introjs.com',
         target: '_self'
@@ -33,12 +33,12 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Intro.js Docs',
           position: 'left',
         },
         {
           to: '/docs/examples/basic/hello-world',
-          label: 'Examples',
+          label: 'Intro.js Examples',
           position: 'left'
         },
         {
@@ -58,9 +58,9 @@ module.exports = {
           target: '_blank'
         },
         {
-          to: 'blog',
-          label: 'Blog',
-          position: 'right'
+          to: 'https://introjs.com/blog',
+          label: 'Intro.js Blog',
+          position: 'left'
         },
         {
           href: 'https://github.com/usablica/intro.js',
@@ -106,8 +106,8 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Intro.js Blog',
+              to: 'https://introjs.com/blog',
             },
             {
               label: 'GitHub',
@@ -116,7 +116,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Usablica Limited`,
+      copyright: `Copyright © ${new Date().getFullYear()} Usablica`,
     },
   },
   presets: [
