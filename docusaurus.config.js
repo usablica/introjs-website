@@ -33,12 +33,12 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Intro.js Docs',
+          label: 'Docs',
           position: 'left',
         },
         {
           to: '/docs/examples/basic/hello-world',
-          label: 'Intro.js Examples',
+          label: 'Examples',
           position: 'left'
         },
         {
@@ -59,7 +59,7 @@ module.exports = {
         },
         {
           to: 'https://introjs.com/blog',
-          label: 'Intro.js Blog',
+          label: 'Blog',
           position: 'left'
         },
         {
