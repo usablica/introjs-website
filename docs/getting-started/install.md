@@ -1,12 +1,12 @@
 ---
-title: Install
+title: Install Intro.js
 ---
 
 In this page you can find different ways to obtain an Introjs version and install it.
 
 ## Requirements
 
-Intro.js doesn’t have any dependencies and you don’t need to install anything else. Follow the instruction in next steps to download and install Introjs.
+Intro.js doesn’t have any dependencies and you don’t need to install anything else. Follow the instruction in next steps to download and install Intro.js.
 
 ## Download
 
@@ -22,20 +22,19 @@ Download it from CDN:
 *   [JSDelivr](http://www.jsdelivr.com/projects/intro.js)
 *   [BootCDN](http://www.bootcdn.cn/intro.js/)
 
-### Bower
-
-Using bower:
-
-    bower install intro.js --save
-    
 
 ### NPM
 
-Using npm:
+Using `npm`:
 
     npm install intro.js --save
     
+### Yarn
 
+Using `yarn`:
+
+    yarn add intro.js
+    
 ### Git
 
 Download the source from git repository, using git clone [Git repo](https://github.com/usablica/intro.js.git)

@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Intro.js',
-  tagline: 'Lightweight, user-friendly onboarding tour library',
+  title: 'Intro.js Docs',
+  tagline: 'User Onboarding and Product Walkthrough Library',
   url: 'https://introjs.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
