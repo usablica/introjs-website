@@ -28,7 +28,7 @@ Append a CSS class to the helperLayer _(optional)_
 
 Define the position of tooltip, `top`, `left`, `right`, `bottom`, `bottom-left-aligned` (same as `bottom`), `bottom-middle-aligned`, `bottom-right-aligned` or `auto` (to detect the position of element and assign the correct position automatically). Default is `bottom` _(optional)_
 
-### `data-scrollTo`
+### `data-scroll-to`
 
 Define the element to scroll to, `element` or `tooltip`. Default is `element` _(optional)_
 
