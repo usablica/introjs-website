@@ -11,7 +11,7 @@ import { DemoWidget } from "../../../lib/demoWidget.js";
 
 
 You can also add Hints to your page using `data-hint` HTML attributes. Simply add those attributes to your
-elements and call `introjJs().addHints()`:
+elements and call `introJs().addHints()`:
 
 ```jsx title="index.html"
 <div class="card-demo">
@@ -26,11 +26,11 @@ elements and call `introjJs().addHints()`:
     <div class="card__body">
       <h4 
         data-hint="Hello! 👋 Click on this link"
-        data-hintposition="bottom-middle"
+        data-hint-position="bottom-middle"
       >
        Quaco Lighthouse
       </h4>
-      <small data-hint="You can select the text" data-hintposition="top-right">
+      <small data-hint="You can select the text" data-hint-position="top-right">
         The Quaco Head Lighthouse is a well maintained lighthouse close to St.
         Martins. It is a short, beautiful walk to the lighthouse along the
         seashore.
