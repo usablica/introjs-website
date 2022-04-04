@@ -233,6 +233,42 @@ introJs().refresh();
 
 * * *
 
+## introJs.isActive()
+
+Returns `true` if this Intro.js is active and the "Don't Show Again" cookie is not `true`.
+
+**Returns:**
+
+ - boolean
+
+**Example:**
+
+```javascript
+introJs().isActive();
+```
+
+* * *
+
+## introJs.setDontShowAgain(dontShowAgain)
+
+To manually set the "Don't Show Again" state
+
+**Parameters:**
+
+ - dontShowAgain: boolean
+
+**Returns:**
+
+ - introJs object
+
+**Example:**
+
+```javascript
+introJs().setDontShowAgain(true);
+```
+
+* * *
+
 ## introJs.oncomplete(providedCallback)
 
 Set callback for when introduction completed.

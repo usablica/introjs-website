@@ -42,7 +42,7 @@ _We don’t recommend downloading directly from GitHub because the latest change
 
 ## Setup
 
-Intro.js consists of js and css files that need to be linked externally in the HTML page.  The JS (`intro.js`) file should be linked before the closing </body> tag. The CSS file (`introjs.css`) needs to be linked in the <head> of the HTML page. 
+Intro.js consists of js and css files that need to be linked externally in the HTML page.  The JS (`intro.js`) file should be linked before the closing `</body>` tag. The CSS file (`introjs.css`) needs to be linked in the `<head>` of the HTML page. 
 
 That’s it! To continue, follow the next steps or go to the [Quick Start](/docs/getting-started/start) page.
 

@@ -13,12 +13,10 @@ module.exports = {
   themeConfig: {
     image: '/img/social.png',
     algolia: {
-      apiKey: 'ce8096f2ee2b3ba8c0534e99997ec07f',
+      appId: 'XNVVMJ2N5K',
+      apiKey: '5f24293aa1091a2b9f102052c4ebd9f1',
       indexName: 'introjs',
       algoliaOptions: {} // Optional, if provided by Algolia
-    },
-    googleAnalytics: {
-      trackingID: 'UA-69239984-1',
     },
     navbar: {
       hideOnScroll: true,
@@ -129,8 +127,8 @@ module.exports = {
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: false,
           editUrl: 'https://github.com/usablica/introjs-website/edit/master/',
         },
         theme: {
@@ -142,6 +140,12 @@ module.exports = {
   themes: [require.resolve('@docusaurus/theme-live-codeblock')],
   plugins: [
     path.resolve(__dirname, './plugins/jsdom'),
-    path.resolve(__dirname, './plugins/tailwind')
+    path.resolve(__dirname, './plugins/tailwind'),
+    [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: 'UA-69239984-1'
+      },
+    ],
   ]
 };

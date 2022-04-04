@@ -25,6 +25,7 @@ module.exports = {
             'examples/basic/json-config',
             'examples/basic/floating-tooltip',
             'examples/basic/tooltip-positions',
+            'examples/basic/dont-show-again',
             'examples/basic/hints',
           ]
         },
