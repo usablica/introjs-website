@@ -131,6 +131,7 @@ module.exports = {
           showLastUpdateTime: false,
           editUrl: 'https://github.com/usablica/introjs-website/edit/master/',
         },
+	blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
