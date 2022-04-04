@@ -2,15 +2,14 @@
 title: Install Intro.js
 ---
 
-In this page you can find different ways to obtain an Introjs version and install it.
+On this page we have outlined several different ways to obtain and install an Intro.js version.
 
 ## Requirements
 
 Intro.js doesn’t have any dependencies and you don’t need to install anything else. Follow the instruction in next steps to download and install Intro.js.
 
-## Download
 
-Now that you’ve got everything installed, let’s get to work!
+## Download
 
 You can obtain your local copy of Intro.js from:
 
@@ -37,18 +36,16 @@ Using `yarn`:
     
 ### Git
 
-Download the source from git repository, using git clone [Git repo](https://github.com/usablica/intro.js.git)
+Download the source from our git repository using git clone [Git repo](https://github.com/usablica/intro.js.git)
 
-_We don’t recommend to download the source from the Git because it might have some unstable changes._
+_We don’t recommend downloading directly from GitHub because the latest changes are still in beta and have not been tested yet for instability issues._
 
 ## Setup
 
-After download the source, you need to add it to the page. Introjs has two main parts, the css and js files.
+Intro.js consists of js and css files that need to be linked externally in the HTML page.  The JS (`intro.js`) file should be linked before the closing </body> tag. The CSS file (`introjs.css`) needs to be linked in the <head> of the HTML page. 
 
-You need to add the `JS` file (`intro.js`) before closing the body tag (`</body>`) and adding the CSS file (`introjs.css`) to the header (`<head>`).
-
-That’s it! Now follow next steps or go to [Quick Start](/docs/getting-started/start) page.
+That’s it! To continue, follow the next steps or go to the [Quick Start](/docs/getting-started/start) page.
 
 ## RTL
 
-You can use Introjs for RTL websites as well (e.g. Farsi). What you need to do is adding `introjs-rtl.css` file after the main CSS file (`introjs.css`)
+You can use Intro.js for RTL websites as well (e.g. Farsi). Simply add `introjs-rtl.css` file after the main CSS file (`introjs.css`) in the `<head>` section of the HTML page.
