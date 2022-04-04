@@ -1,12 +1,13 @@
 ---
-title: Install
+title: Install Intro.js
 ---
 
 On this page we have outlined several different ways to obtain and install an Intro.js version.
 
 ## Requirements
 
-Since Intro.js doesn’t have any dependencies, you do not need to install anything extra beyond the original application. Follow the instructions in the next steps to download and install Intro.js.
+Intro.js doesn’t have any dependencies and you don’t need to install anything else. Follow the instruction in next steps to download and install Intro.js.
+
 
 ## Download
 
@@ -20,20 +21,19 @@ Download it from CDN:
 *   [JSDelivr](http://www.jsdelivr.com/projects/intro.js)
 *   [BootCDN](http://www.bootcdn.cn/intro.js/)
 
-### Bower
-
-Using bower:
-
-    bower install intro.js --save
-    
 
 ### NPM
 
-Using npm:
+Using `npm`:
 
     npm install intro.js --save
     
+### Yarn
 
+Using `yarn`:
+
+    yarn add intro.js
+    
 ### Git
 
 Download the source from our git repository using git clone [Git repo](https://github.com/usablica/intro.js.git)
@@ -48,4 +48,4 @@ That’s it! To continue, follow the next steps or go to the [Quick Start](/docs
 
 ## RTL
 
-You can use Intro.js for RTL websites as well (e.g. Farsi). Simply add `introjs-rtl.css` file after the main CSS file (`introjs.css`) in the <head> section of the HTML page.
+You can use Intro.js for RTL websites as well (e.g. Farsi). Simply add `introjs-rtl.css` file after the main CSS file (`introjs.css`) in the `<head>` section of the HTML page.

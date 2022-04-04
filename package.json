@@ -12,14 +12,14 @@
     "clear": "docusaurus clear"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.72",
-    "@docusaurus/preset-classic": "2.0.0-alpha.72",
-    "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.72",
+    "@docusaurus/core": "^2.0.0-beta.14",
+    "@docusaurus/preset-classic": "^2.0.0-beta.14",
+    "@docusaurus/theme-live-codeblock": "^2.0.0-beta.14",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "intro.js": "^4.3.0",
     "jsdom": "^16.5.1",
-    "postcss": "^8.2.10",
+    "postcss": "^8.4.5",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },

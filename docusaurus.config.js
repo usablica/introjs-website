@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Intro.js',
-  tagline: 'Lightweight, user-friendly onboarding tour library',
+  title: 'Intro.js Docs',
+  tagline: 'User Onboarding and Product Walkthrough Library',
   url: 'https://introjs.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -24,7 +24,7 @@ module.exports = {
       hideOnScroll: true,
       title: 'Intro.js',
       logo: {
-        alt: 'Intro.js',
+        alt: 'Intro.js logo',
         src: 'img/logo.svg',
         href: 'https://introjs.com',
         target: '_self'
@@ -58,9 +58,9 @@ module.exports = {
           target: '_blank'
         },
         {
-          to: 'blog',
+          to: 'https://introjs.com/blog',
           label: 'Blog',
-          position: 'right'
+          position: 'left'
         },
         {
           href: 'https://github.com/usablica/intro.js',
@@ -106,8 +106,8 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Intro.js Blog',
+              to: 'https://introjs.com/blog',
             },
             {
               label: 'GitHub',
@@ -116,7 +116,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Usablica Limited`,
+      copyright: `Copyright © ${new Date().getFullYear()} Usablica`,
     },
   },
   presets: [
@@ -132,14 +132,6 @@ module.exports = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           editUrl: 'https://github.com/usablica/introjs-website/edit/master/',
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/usablica/introjs-website/edit/master/blog/',
-          feedOptions: {
-            type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Usablica Limited`,
-          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
