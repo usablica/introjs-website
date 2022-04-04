@@ -18,7 +18,7 @@ For example:
     <a href='http://example.com/' data-intro='Hello step one!'></a>
     
 
-See all attributes [here](https://github.com/usablica/intro.js/wiki/Documentation/#attributes).
+See all attributes [here](/docs/intro/attributes/).
 
 Finally, call this JavaScript function:
 
