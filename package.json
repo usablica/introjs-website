@@ -16,7 +16,7 @@
     "@docusaurus/preset-classic": "^2.0.0-beta.18",
     "@docusaurus/theme-live-codeblock": "^2.0.0-beta.18",
     "@mdx-js/react": "^1.6.22",
-    "clsx": "^1.1.1",
+    "clsx": "^1.2.0",
     "intro.js": "^5.1.0",
     "jsdom": "^16.5.1",
     "postcss": "^8.4.5",
