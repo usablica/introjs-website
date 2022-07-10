@@ -25,8 +25,8 @@ const config = {
       image: "/img/social.png",
       algolia: {
         appId: "XNVVMJ2N5K",
-        apiKey: "5f24293aa1091a2b9f102052c4ebd9f1",
-        indexName: "introjs",
+        apiKey: "46fdbb963f54d3f48fb175a9a31f4660",
+        indexName: "crawler_introjs.com",
         algoliaOptions: {}, // Optional, if provided by Algolia
       },
       prism: {
