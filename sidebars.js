@@ -55,6 +55,7 @@ module.exports = {
           items: [
             'examples/advanced/svg',
             'examples/advanced/scrollable-element',
+            'examples/advanced/async-await',
           ]
         }
       ]

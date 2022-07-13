@@ -29,7 +29,7 @@ Start the introduction for defined element(s).
 
 **Returns:**
 
- - introJs object.
+ - `Promise<introJs>`
 
 **Example:**
 
@@ -49,7 +49,7 @@ Go to specific step of introduction.
 
 **Returns:**
 
- - introJs object.
+ - `Promise<introJs>`
 
 **Example:**
 
@@ -69,7 +69,7 @@ Go to specific step of introduction with the concrete step. This differs from `g
 
 **Returns:**
 
- - introJs object.
+ - `Promise<introJs>`
 
 **Example:**
 
@@ -123,7 +123,7 @@ Go to next step of introduction.
 
 **Returns:**
 
- - introJs object.
+ - `Promise<introJs>`
 
 **Example:**
 
@@ -139,7 +139,7 @@ Go to previous step of introduction.
 
 **Returns:**
 
- - introJs object.
+ - `Promise<introJs>`
 
 **Example:**
 
@@ -159,7 +159,7 @@ Exit the introduction.
 
 **Returns:**
 
- - introJs object.
+ - `Promise<introJs>`
 
 **Example:**
 

@@ -4,14 +4,14 @@ title: Hints options
 
 ## Options
 
+### `hints`
+For defining hints using JSON configuration. Array of hint objects.
+
 ### `hintPosition`
 Hint position. Default: `top-middle`
 
 ### `hintButtonLabel`
 Hint button label. Default: ‘Got it’
-
-### `hintAnimation`
-To add animation to hints or not. Default: `true`
 
 ### `hintShowButton`
 To show/hide the "Got it" button. Default: `true`
@@ -19,8 +19,8 @@ To show/hide the "Got it" button. Default: `true`
 ### `hintAutoRefreshInterval`
 Hints auto-refresh interval in `ms` (set to -1 to disable). Default: `10`
 
-### `hints`
-For defining hints using JSON configuration. Array of hint objects.
+### `hintAnimation`
+To add animation to hints or not. Default: `true`
 
 ## Hint data structure
 

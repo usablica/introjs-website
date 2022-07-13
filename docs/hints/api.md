@@ -14,7 +14,7 @@ Creating an introJs object.
 
 **Returns:**
 
- - introJs object.
+ - `Promise<introJs>`
 
 **Example:**
 
@@ -96,7 +96,9 @@ To add available hints to the page (using `data-hint` or JSON)
 
 **Available since**: v2.0
 
-**Returns:** - introJs object.
+**Returns:**
+
+ - `Promise<introJs>`
 
 **Example:** 
 
@@ -140,7 +142,9 @@ Hides the hint with given `stepId`. The `stepId` is an `integer` and it’s the 
 
 **Available since**: v2.1
 
-**Returns:** - introJs object.
+**Returns:**
+
+ - `Promise<introJs>`
 
 **Example:** 
 
@@ -156,7 +160,9 @@ Shows the popup dialog next to the hint with given `stepId`. The `stepId` is an 
 
 **Available since**: v2.6
 
-**Returns:** - introJs object.
+**Returns:**
+
+ - `Promise<introJs>`
 
 **Example:** 
 
@@ -172,7 +178,9 @@ Hides all hints on the page.
 
 **Available since**: v2.2
 
-**Returns:** - introJs object.
+**Returns:**
+
+ - `Promise<introJs>`
 
 **Example:** 
 
