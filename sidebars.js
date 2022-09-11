@@ -100,6 +100,7 @@ module.exports = {
         'wrappers/rails',
         'wrappers/wordpress',
         'wrappers/yii',
+        'wrappers/yii2',
         'wrappers/magento',
         'wrappers/add'
       ]
