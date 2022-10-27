@@ -80,7 +80,8 @@ Go to specific step of introduction with the concrete step. This differs from `g
 
 ```javascript
 //start introduction from step with data-step='9'
-introJs().goToStepNumber(9).start();
+introJs().start()
+introJs().goToStepNumber(9);
 ``` 
 
 * * *
