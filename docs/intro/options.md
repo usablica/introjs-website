@@ -44,7 +44,7 @@ Default tooltip position
 Default: "bottom"
 
 ### `tooltipClass`
-Adding CSS class to all tooltips
+Adding CSS class to all tooltips  
 Default: ""
 
 ### `group`
@@ -104,7 +104,7 @@ Adjust the overlay opacity, `Number` between `0` and `1`
 Default: 0.5 
 
 ### `autoPosition`
-To determine the tooltip position automatically based on the window.width/height
+To determine the tooltip position automatically based on the window.width/height  
 Default: `true`  
 
 ### `positionPrecedence`
