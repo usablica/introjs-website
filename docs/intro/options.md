@@ -95,6 +95,8 @@ To display the "Don't show again" checkbox in the tour
 "Don't Show Again" label
 
 ### `dontShowAgainCookie`
+This is cookie name, to use IntroJS tour on multiple pages, and wish to enable the "Don't show again" checkbox, it must use the dontShowAgainCookie option to set a unique cookie name on each page where using IntroJS.
+
 ### `dontShowAgainCookieDays`
 "Don't show again" cookie name and expiry (in days)
 
